@@ -1,7 +1,7 @@
 public class Tucan implements Mammal {
     public String name;
     public boolean isExtinct;
-    public int beakLength;
+    public double beakLength;
     public Tucan(){
         name = "Bart";
         isExtinct = true;
@@ -21,5 +21,13 @@ public class Tucan implements Mammal {
     @Override
     public void sleep() {
         System.out.println("Zzz");
+    }
+
+    public void Beak(){
+        beakLength = beakLength*2;
+    }
+
+    public void Beak1(){
+        beakLength = beakLength/4;
     }
 }

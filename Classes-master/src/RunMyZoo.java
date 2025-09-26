@@ -16,5 +16,10 @@ public class RunMyZoo {
 
         Tucan t = new Tucan();
         t.sleep();
+
+        System.out.println(e.getColor());
+
+        t.Beak();
+        t.Beak1();
     }
 }
